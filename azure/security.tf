@@ -8,7 +8,7 @@ resource "azurerm_network_security_group" "public" {
     priority                   = 100
     direction                  = "Inbound"
     access                     = "Allow"
-    protocol                  = "Tcp"
+    protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "22"
     source_address_prefix      = var.admin_source_cidr
@@ -30,7 +30,7 @@ resource "azurerm_network_security_group" "private" {
     priority                   = 100
     direction                  = "Inbound"
     access                     = "Allow"
-    protocol                  = "Tcp"
+    protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "22"
     source_address_prefix      = var.public_subnet_cidr
