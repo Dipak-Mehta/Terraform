@@ -193,4 +193,4 @@ GitHub Actions validates Terraform formatting and configuration for the cloud pr
 
 ---
 
-Built as a reusable multi-cloud Terraform reference by Dipak-Mehta.
+Built as a reusable multi-cloud Terraform reference by Dipak Mehta.
